@@ -4,11 +4,11 @@
    * general description of Python 
    * Interactive Python 
 2. Lexical matters
-  * Lines 
-  * Comments 
-  * Names and tokens 
-  * Doc strings 
-  * Whitespaces and indentation
+   * Lines 
+   * Comments 
+   * Names and tokens 
+   * Doc strings 
+   * Whitespaces and indentation
 3. Variables and Datatypes
   * what is Variables 
   * Naming Variables
