@@ -13,6 +13,13 @@
   * what is Variables 
   * Naming Variables
   * Keywords
+  
+> **Note:**
+
+> - StackEdit is accessible offline after the application has been loaded for the first time.
+> - Your local documents are not shared between different browsers or computers.
+> - Clearing your browser's data may **delete all your local 
+
 1.4Built-in data-types
 1.4.1Numeric types 
 1.4.2Tuples and lists 
