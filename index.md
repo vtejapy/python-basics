@@ -16,9 +16,14 @@
   
 
 ```
- - StackEdit is accessible offline after the application has been loaded for the first time.
- - Your local documents are not shared between different browsers or computers.
- - Clearing your browser's data may **delete all your local 
+False      class      finally    is         return
+None       continue   for        lambda     try
+True       def        from       nonlocal   while
+and        del        global     not        with
+as         elif       if         or         yield
+assert     else       import     pass
+break      except     in         raise
+
 ```
 
 1.4Built-in data-types
