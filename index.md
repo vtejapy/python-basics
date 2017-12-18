@@ -80,64 +80,64 @@
    * Raising exceptions
    * Using finally for cleanup
 10. Function
-   * The def statement
-   * Returning values
-   * Parameters
-   * Arguments
-   *  Local variables
-   *  Global variables and the global statement
-   *  Doc strings for functions
-   *  Decorators for functions
-   *  lambda
-   *  Iterators and generators
+    * The def statement
+    * Returning values
+    * Parameters
+    * Arguments
+    *  Local variables
+    *  Global variables and the global statement
+    *  Doc strings for functions
+    *  Decorators for functions
+    *  lambda
+    *  Iterators and generators
 11. Files
-   * File opening
-   * Closing a file
-   * Reading a file
-   * Using the with statement
-   * Writing in a file
+    * File opening
+    * Closing a file
+    * Reading a file
+    * Using the with statement
+    * Writing in a file
 12. Modules
-   * Introduction
-   * Importing modules
-   * Submodules
-   * __all__ in __init__.py
-   * Default modules
-   * Module os
-   * Requests Module
-   * Command line arguments
+    * Introduction
+    * Importing modules
+    * Submodules
+    * __all__ in __init__.py
+    * Default modules
+    * Module os
+    * Requests Module
+    * Command line arguments
 13. Class 
-   * A simple class
-   * Defining methods
-   * The constructor
-   * Member variables
-   * Calling methods
-   * Adding inheritance
-   * Class variables
-   * Class methods and static methods
-   * Properties
+    * A simple class
+    * Defining methods
+    * The constructor
+    * Member variables
+    * Calling methods
+    * Adding inheritance
+    * Class variables
+    * Class methods and static methods
+    * Properties
 14. Object-Oriented Programming
-   * Managing Larger Programs 
-   * Getting Started 
-   * Using Objects 
-   * Starting with Programs  
-   * Subdividing a Problem - Encapsulation  
-   * Our First Python Object  
-   * Classes as Types  
-   * Object Lifecycle 
-   * Many Instances  
-   * Inheritance   
+    * Managing Larger Programs 
+    * Getting Started 
+    * Using Objects 
+    * Starting with Programs  
+    * Subdividing a Problem - Encapsulation  
+    * Our First Python Object  
+    * Classes as Types  
+    * Object Lifecycle 
+    * Many Instances  
+    * Inheritance   
 15. Regular Expressions
-   *  Defining regular expressions
-   *   Compiling regular expressions
-   *   Using regular expressions
-   *   Using match objects to extract a value
-   *   Extracting multiple items
-   *  Replacing multiple items
+    *  Defining regular expressions
+    *   Compiling regular expressions
+    *   Using regular expressions
+    *   Using match objects to extract a value
+    *   Extracting multiple items
+    *  Replacing multiple items
 16. Using Databases and SQL
-   *  What is a database?  
-   *  Database concepts  
-   *  Creating a database table
-   *  closing database
+    *  What is a database?  
+    *  Database concepts  
+    *  Creating a database table
+    *  closing database
 17. parsing data 
     *   json
     *   yaml
