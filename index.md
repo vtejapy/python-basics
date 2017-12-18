@@ -41,12 +41,12 @@
    * Some useful built in Functions
    
 6. Conditional execution
-     Boolean expres
-      Logical operation
-      If statement
-       Conditional execu
-       Chained condition
-       Nested condition
+   *  Boolean expres
+   *  Logical operation
+   *  If statement
+   *  Conditional execu
+   *  Chained condition
+   *  Nested condition
 7. Iteration
    * while: statement
    *  Infinite loop
