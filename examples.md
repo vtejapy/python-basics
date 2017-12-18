@@ -1,21 +1,4 @@
-====================================
-Python programming language tutorial
-====================================
-
-:Version: 0.2 of 03.06.2010
-
-.. contents::
-.. include:: <s5defs.txt>
-
-Daniel Nouri
-============
-
-I am:
-
-- Python developer since 2001
-- Independent web developer
-- http://danielnouri.org
-- daniel.nouri@gmail.com
+Python
 
 Resources
 =========
