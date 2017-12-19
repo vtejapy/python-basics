@@ -74,15 +74,15 @@ eg:
 	# Note that print is a function
 	print('hello world')
 ```
-Use as many useful comments as you can in your program to:
-     * explain assumptions
-     * explain important decisions
-     * explain important details
-     * explain problems you're trying to solve
-     * explain problems you're trying to overcome in your program, etc 
+## Use as many useful comments as you can in your program to:
+   * explain assumptions
+   * explain important decisions
+   * explain important details
+   * explain problems you're trying to solve
+   * explain problems you're trying to overcome in your program, etc 
 ### types of comments
-	* single line comment use (#)
-        * Multiple line comments use(''' or """)
+* single line comment use (#)
+* Multiple line comments use(''' or """)
 
 ## Indentation
    * Whitespace is important in Python. Actually, whitespace at the beginning of the line is important. This is called indentation. 
