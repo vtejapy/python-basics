@@ -95,9 +95,11 @@ eg:
 		 print('Value is', i)
 		print('I repeat, the value is', i)
 
-	output:
+```
+output:
+```
 
-```		  File "whitespace.py", line 3
+		  File "whitespace.py", line 3
 		    print('Value is', i)
  		    ^
 	          IndentationError: unexpected indent
@@ -110,8 +112,8 @@ eg:
 ## Literal Constants
    * An example of a literal constant is a number like 5, 1.23, or a string like 'This is a string' or "It's a string!"
 ##  Numbers
-    * Numbers are mainly of two types - integers and floats.
-    * There is no separate long type. The int type can be an integer of any size.
+   * Numbers are mainly of two types - integers and floats.
+   * There is no separate long type. The int type can be an integer of any size.
 
 eg:
 	An example of an integer is 2 which is just a whole number.
@@ -160,7 +162,7 @@ eg2:
 	print('Why is {} playing with that python?'.format(name))
 
 ## Escape Sequences
-    * Suppose, you want to have a string which contains a single quote ('), how will you specify this string? For example, the string is "What's your name?". You cannot specify 'What's your name?' because Python will be confused as to where the string starts and ends. So, you will have to specify that this single quote does not indicate the end of the string. This can be done with the help of what is called an escape sequence.
+   * Suppose, you want to have a string which contains a single quote ('), how will you specify this string? For example, the string is "What's your name?". You cannot specify 'What's your name?' because Python will be confused as to where the string starts and ends. So, you will have to specify that this single quote does not indicate the end of the string. This can be done with the help of what is called an escape sequence.
 	* you can specify the string as 'What\'s your name?' or "What's your name?"
         * the newline character - \n
 		eg:
@@ -189,11 +191,11 @@ eg2:
            * The rest of the identifier name can consist of letters (uppercase ASCII or lowercase ASCII or Unicode character), underscores (_) 			or digits (0-9)
            * Identifier names are case-sensitive. For example, myname and myName are not the same. Note the lowercase n in the former and the 			uppercase N in the latter
 ## Data Types
-    * Variables can hold values of different types called data types.
+   * Variables can hold values of different types called data types.
 ## Object
-    * Python refers to anything used in a program as an object.
+   * Python refers to anything used in a program as an object.
 ## Operators and expressions
-    * Operators are the symbols which tells the Python interpreter to do some mathematical or logical operation. 
+   * Operators are the symbols which tells the Python interpreter to do some mathematical or logical operation. 
 eg:
 ```
 	>>> 2 + 3
@@ -246,7 +248,7 @@ eg:
 	25
 ```
 ## Expressions
-     * Generally while writing expressions we put spaces before and after every operator so that the code becomes clearer to read, like
+   * Generally while writing expressions we put spaces before and after every operator so that the code becomes clearer to read, like
 eg:
 ```
 	a = 234 * (45 - 56.0 / 34)
