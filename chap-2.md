@@ -30,10 +30,9 @@
 ## Blocks and indentation
 
    * Python represents block structure and nested block structure with indentation, not with begin and end brackets.
-
    * The empty block -- Use the pass no-op statement.
 
-## Benefits of the use of indentation to indicate structure:
+### Benefits of the use of indentation to indicate structure:
 
    * Reduces the need for a coding standard. Only need to specify that indentation is 4 spaces and no hard tabs.
    * Reduces inconsistency. Code from different sources follow the same indentation style. It has to.
