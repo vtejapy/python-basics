@@ -7,7 +7,7 @@
    * Lines 
    * Comments 
    * Names and tokens 
-   * Doc strings 
+   * Python Data Types 
    * Whitespaces and indentation
 3. Variables
    * what is Variables 
