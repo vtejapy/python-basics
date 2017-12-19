@@ -169,18 +169,18 @@ eg2:
 ```
 			'This is the first line\nThis is the second line'
 ```
-        	output:
+output:
 ```
 			"This is the first line. 
 			This is the second line"
 ```
-        =>the tab: \t
+The tab: \t
 
-		eg:
+eg:
 ```
 			'This is the first line\t\t\t\t\tThis is the second line'
 ```
-		output:
+output:
 ```
 			"This is the first line      This is the second line"
 ```
@@ -207,6 +207,7 @@ eg:
 	>>> 14 % 3(modulue operator)
 	2
 ```
+```
 =>Relational Operators
 < Is less than
 <= Is less than or equal to
@@ -214,8 +215,6 @@ eg:
 >= Is greater than or equal to
 == Is equal to
 != Is not equal to
-eg:
-```
 	>>> 1 < 2
 	True	
 	>>> 3 > 34	
