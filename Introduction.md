@@ -22,7 +22,7 @@
         f2()
     }
 ```
-    in Python would be:
+in Python would be:
 ```
     if x:
         if y:
