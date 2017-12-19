@@ -33,40 +33,35 @@ And, the convention is to use four spaces (and no hard tabs) for each level of i
 
 ## An overview of Python:
 
-    A scripting language -- Python is suitable (1) for embedding, (2) for writing small unstructured scripts, (3) for "quick and dirty" programs.
+   * A scripting language -- Python is suitable (1) for embedding, (2) for writing small unstructured scripts, (3) for "quick and dirty" programs.
 
-    Not a scripting language -- (1) Python scales. (2) Python encourages us to write code that is clear and well-structured.
+   * Not a scripting language -- (1) Python scales. (2) Python encourages us to write code that is clear and well-structured.
 
-    Interpreted, but also compiled to byte-code. Modules are automatically compiled (to .pyc) when imported, but may also be explicitly compiled.
+   * Interpreted, but also compiled to byte-code. Modules are automatically compiled (to .pyc) when imported, but may also be explicitly compiled.
 
-    Provides an interactive command line and interpreter shell. In fact, there are several.
+   * Provides an interactive command line and interpreter shell. In fact, there are several.
 
-    Dynamic -- For example:
-        Types are bound to values, not to variables.
-        Function and method lookup is done at runtime.
-        Values are inspect-able.
-        There is an interactive interpreter, more than one, in fact.
-        You can list the methods supported by any given object.
+   * Dynamic -- For example:
+        * Types are bound to values, not to variables.
+        * Function and method lookup is done at runtime.
+        * Values are inspect-able.
+        * There is an interactive interpreter, more than one, in fact.
+        * You can list the methods supported by any given object.
 
-    Strongly typed at run-time, not compile-time. Objects (values) have a type, but variables do not.
+   * Strongly typed at run-time, not compile-time. Objects (values) have a type, but variables do not.
 
-    Reasonably high level -- High level built-in data types; high level control structures (for walking lists and iterators, for example).
+   * Reasonably high level -- High level built-in data types; high level control structures (for walking lists and iterators, for example).
 
-    Object-oriented -- Almost everything is an object. Simple object definition. Data hiding by agreement. Multiple inheritance. Interfaces by convention. Polymorphism.
+   * Object-oriented -- Almost everything is an object. Simple object definition. Data hiding by agreement. Multiple inheritance. Interfaces by convention. Polymorphism.
 
-    Highly structured -- Statements, functions, classes, modules, and packages enable us to write large, well-structured applications. Why structure? Readability, locate-ability, modifiability.
+   * Highly structured -- Statements, functions, classes, modules, and packages enable us to write large, well-structured applications. Why structure? Readability, locate-ability, modifiability.
 
-    Explicitness
+   * Explicitness
 
-    First-class objects:
+   * First-class objects:
         Definition: Can (1) pass to function; (2) return from function; (3) stuff into a data structure.
         Operators can be applied to values (not variables). Example: f(x)[3]
 
-    Indented block structure -- "Python is pseudo-code that runs."
+   * Indented block structure -- "Python is pseudo-code that runs."
 
-    Embedding and extending Python -- Python provides a well-documented and supported way (1) to embed the Python interpreter in C/C++ applications and (2) to extend Python with modules and objects implemented in C/C++.
-        In some cases, SWIG can generate wrappers for existing C/C++ code automatically. See http://www.swig.org/
-        Cython enables us to generate C code from Python and to "easily" create wrappers for C/C++ functions. See http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/
-        To embed and extend Python with Java, there is Jython. See http://www.jython.org/
-
-    Automatic garbage collection. (But, there is a gc module to allow explicit control of garbage collection.)
+   * Automatic garbage collection. (But, there is a gc module to allow explicit control of garbage collection.)
