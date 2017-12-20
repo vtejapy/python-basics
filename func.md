@@ -110,9 +110,10 @@ output:
 4
 ```
 
-Docstrings
+## Docstrings
 
-In Python we use docstrings to explain how to use the code, it will be useful in interactive mode and to create auto-documentation. Below we see an example of the docstring for a function called longest_side.
+   * In Python we use docstrings to explain how to use the code, it will be useful in interactive mode and to create auto-documentation. 
+   * Below we see an example of the docstring for a function called longest_side.
 
 ```
 import math
