@@ -147,3 +147,198 @@ In Python any function can act as higher order function.
 ['imag', 'numerator', 'real']
 >>> print(lst)
 ```
+
+## Local Variables
+
+   * When you declare variables inside a function definition, they are not related in any way to other variables with the same names used outside the function - i.e. variable names are local to the function. This is called the scope of the variable. All variables have the scope of the block they are declared in starting from the point of definition of the name.
+
+```
+ x = 50
+
+
+def func(x):
+    print('x is', x)
+    x = 2
+    print('Changed local x to', x)
+
+
+func(x)
+print('x is still', x)
+```
+
+Output:
+
+```
+$ python function_local.py
+x is 50
+Changed local x to 2
+x is still 50
+```
+
+## The global statement
+
+```
+x = 50
+
+
+def func():
+    global x
+
+    print('x is', x)
+    x = 2
+    print('Changed global x to', x)
+
+
+func()
+print('Value of x is', x)
+
+```
+output: 
+```
+$ python function_global.py
+x is 50
+Changed global x to 2
+Value of x is 2
+
+```
+
+
+## args and keyword args
+
+  Additional positional arguments passed to a function that are not specified in the function definition (the def: statement``), are collected in an argument preceded by a single asterisk `*args` . 
+```
+def print_args(*args):
+           print(arg) 
+```
+output:
+```
+print_args("one", "two", "three")
+print_args("one", "two", "three", "four")
+```
+
+  Keyword arguments passed to a function that are not specified in the function definition can be collected in a dictionary and passed to an argument preceded by a double asterisk.`**kwargs`
+```
+def print_kwargs(**kwargs):
+       print("%s: %s" % (k, v))
+
+```
+output:
+```
+print_kwargs(name="Jane", surname="Doe")
+print_kwargs(age=10)
+```
+
+Eg:2
+
+```
+def show_args(x, y=-1, *args, **kwargs):
+    print '-' * 40
+    print 'x:', x
+    print 'y:', y
+    print 'args:', args
+    print 'kwargs:', kwargs
+
+def test():
+    show_args(1)
+    show_args(x=2, y=3)
+    show_args(y=5, x=4)
+    show_args(4, 5, 6, 7, 8)
+    show_args(11, y=44, a=55, b=66)
+
+test()
+```
+
+output:
+
+```
+$ python workbook006.py
+----------------------------------------
+x: 1
+y: -1
+args: ()
+kwargs: {}
+----------------------------------------
+x: 2
+y: 3
+args: ()
+kwargs: {}
+----------------------------------------
+x: 4
+y: 5
+args: ()
+kwargs: {}
+----------------------------------------
+x: 4
+y: 5
+args: (6, 7, 8)
+kwargs: {}
+----------------------------------------
+x: 11
+y: 44
+args: ()
+kwargs: {'a': 55, 'b': 66}
+```
+
+
+## DocStrings
+
+Python has a nifty feature called documentation strings, usually referred to by its shorter name docstrings. DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand. Amazingly, we can even get the docstring back from, say a function, when the program is actually running!
+
+```
+def print_max(x, y):
+    '''Prints the maximum of two numbers.
+
+    The two values must be integers.'''
+    # convert to integers, if possible
+    x = int(x)
+    y = int(y)
+
+    if x > y:
+        print(x, 'is maximum')
+    else:
+        print(y, 'is maximum')
+
+print_max(3, 5)
+print(print_max.__doc__)
+
+```
+
+## lambda
+  * is anonymous (does not need a name) and
+  * contains only an expression and no statements.
+
+```
+a = lambda: 3
+
+# is the same as
+
+def a():
+    return 3
+```
+
+eg-2:
+
+```
+>>>fn = lambda x, y, z: (x ** 2) + (y * 2) + z
+>>>fn(4, 5, 6)
+32
+
+```
+
+## Iterators & Generators
+
+We use for statement for looping over a list.
+```
+>>> for i in [1, 2, 3, 4]:
+...     print i,
+...
+1
+2
+3
+4
+```
+
+If we use it with a string, it loops over its characters.
+```
+
+```
