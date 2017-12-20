@@ -148,10 +148,10 @@ In Python any function can act as higher order function.
 ['imag', 'numerator', 'real']
 >>> print(lst)
 ```
-
 ## Local Variables
 
-   * When you declare variables inside a function definition, they are not related in any way to other variables with the same names used outside the function - i.e. variable names are local to the function. This is called the scope of the variable. All variables have the scope of the block they are declared in starting from the point of definition of the name.
+   * When you declare variables inside a function definition, they are not related in any way to other variables with the same names used outside the function - i.e. variable names are local to the function. 
+   * This is called the scope of the variable. All variables have the scope of the block they are declared in starting from the point of definition of the name.
 
 ```
  x = 50
@@ -328,18 +328,97 @@ eg-2:
 
 ## Iterators & Generators
 
-We use for statement for looping over a list.
+
+iterator
+    And iterator is something that satisfies the iterator protocol. Clue: If it's an iterator, you can use it in a for: statement.
+The Iteration Protocol
+
+
+generator
+    A generator is a class or function that implements an iterator, i.e. that implements the iterator protocol.
+the iterator protocol
+
+    An object satisfies the iterator protocol if it does the following:
+
+        It implements a `__iter__` method, which returns an iterator object.
+        It implements a next function, which returns the next item from the collection, sequence, stream, etc of items to be iterated over
+        It raises the StopIteration exception when the items are exhausted and the `next()` method is called.
+
+The built-in function iter takes an iterable object and returns an iterator.
 ```
->>> for i in [1, 2, 3, 4]:
-...     print i,
-...
+>>> x = iter([1, 2, 3])
+>>> x
+<listiterator object at 0x1004ca850>
+>>> x.next()
 1
+>>> x.next()
 2
+>>> x.next()
 3
-4
+>>> x.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
 ```
 
-If we use it with a string, it loops over its characters.
+yield
+    The yield statement enables us to write functions that are generators. Such functions may be similar to coroutines, since they may "yield" multiple times and are resumed. 
+
+Generators simplifies creation of iterators. A generator is a function that produces a sequence of results instead of a single value.
+
+def yrange(n):
+    i = 0
+    while i < n:
+        yield i
+        i += 1
+
+Each time the yield statement is executed the function generates a new value.
 ```
+>>> y = yrange(3)
+>>> y
+<generator object yrange at 0x401f30>
+>>> y.next()
+0
+>>> y.next()
+1
+>>> y.next()
+2
+>>> y.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+```
+Eg-2:
 
 ```
+>>> def foo():
+...     print "begin"
+...     for i in range(3):
+...         print "before yield", i
+...         yield i
+...         print "after yield", i
+...     print "end"
+...
+>>> f = foo()
+>>> f.next()
+begin
+before yield 0
+0
+>>> f.next()
+after yield 0
+before yield 1
+1
+>>> f.next()
+after yield 1
+before yield 2
+2
+>>> f.next()
+after yield 2
+end
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>>
+```
+
+
