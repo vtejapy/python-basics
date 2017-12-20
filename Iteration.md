@@ -1,4 +1,6 @@
-##For 
+# Iteration
+
+## For 
 
 Iterate over a sequence or an "iterable" object.
   * Sequences and containers are iterable. Examples: tuples, lists, strings, dictionaries.
@@ -32,6 +34,53 @@ powerful
 3
 4
 5
+```
+
+```
+>>> languages = ["C", "C++", "Perl", "Python"] 
+>>> for x in languages:
+...     print x
+... 
+C
+C++
+Perl
+Python
+>>> 
+```
+
+## The range() Function
+
+The built-in function range() is the right function to iterate over a sequence of numbers
+
+range(n)
+
+```
+>>> range(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+range(begin,end)
+
+```
+>>> range(1,5)
+[1, 2, 3, 4]
+
+```
+
+range(begin,end, step)
+```
+>>> range(4,50,5)
+[4, 9, 14, 19, 24, 29, 34, 39, 44, 49]
+```
+
+eg-2:
+
+```
+n = 101
+sum = 0
+for i in range(1,n):
+    sum = sum + i
+print sum
 ```
 
 
