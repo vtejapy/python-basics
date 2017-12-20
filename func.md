@@ -138,7 +138,7 @@ Higher-order function or a functor is a function which does at least one of the 
         Returns another function as output.
 
 In Python any function can act as higher order function.
-
+```
 >>> def high(func, value):
 ...     return func(value)
 ...
@@ -146,4 +146,4 @@ In Python any function can act as higher order function.
 >>> print(lst[-3:])
 ['imag', 'numerator', 'real']
 >>> print(lst)
-
+```
