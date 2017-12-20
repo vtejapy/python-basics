@@ -70,7 +70,7 @@ diagram-1
 
 
 
-Alternative execution(IF-ELSE)
+## Alternative execution(IF-ELSE)
 
 A second form of the if statement is alternative execution , in which there are two possibilities and the condition determines which one gets executed. 
 The syntax looks like this:
