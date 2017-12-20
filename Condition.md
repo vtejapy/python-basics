@@ -38,7 +38,7 @@ and     or      is      not     in
 
 ```
 
-
+```
 eg:
 
 x > 0 and x < 10
@@ -47,7 +47,7 @@ is true only if x is greater than 0 and less than 10
 
 >>> 17 and True
 True
-
+```
 ## If statement
 The if statement is a compound statement that enables us to conditionally execute blocks of code.
 
@@ -98,10 +98,10 @@ else:
 
 diagram-3
 
-Nested conditionals
+## Nested conditionals
 
 One conditional can also be nested within another. We could have written the three-branch example like this:
-
+```
 if x == y:
   print('x and y are equal')
 else:
@@ -109,6 +109,6 @@ else:
     print('x is less than y')
   else:
     print('x is greater than y')
-
+```
 diagram-4
 
