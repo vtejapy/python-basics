@@ -65,8 +65,7 @@ if x > 0:
 
 The boolean expression after the if statement is called the condition . We end the if statement with a colon character (:) and the line(s) after the if statement are indented.
 
-diagram-1
-
+![If statement](./Screenshot from 2017-12-20 17:12:12.png)
 
 
 
