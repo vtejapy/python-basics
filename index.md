@@ -115,17 +115,7 @@
     * Class variables
     * Class methods and static methods
     * Properties
-14. Object-Oriented Programming
-    * Managing Larger Programs 
-    * Getting Started 
-    * Using Objects 
-    * Starting with Programs  
-    * Subdividing a Problem - Encapsulation  
-    * Our First Python Object  
-    * Classes as Types  
-    * Object Lifecycle 
-    * Many Instances  
-    * Inheritance   
+
 15. Regular Expressions
     *  Defining regular expressions
     *   Compiling regular expressions
