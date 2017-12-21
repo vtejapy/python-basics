@@ -145,7 +145,7 @@ fun: function that needs to be converted into a class method
 returns: a class method for function.
 ```
 
-###Static methods:
+### Static methods:
    * A static method receives neither the instance nor the class as its first argument.
    * Define static methods with built-in function staticmethod() or with decorator @staticmethod.
    * See the description of staticmethod() built-in function at "Built-in Functions": http://docs.python.org/2/library/functions.html#staticmethod
