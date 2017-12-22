@@ -158,7 +158,7 @@ eg:
 ## format method
    * Sometimes we may want to construct strings from other information. This is where the format() method is useful.
    * A string can use certain specifications and subsequently, the format method can be called to substitute those specifications with corresponding arguments to the format method.
-eg:
+
 ```
 	age = 20
 	name = 'Danny'
@@ -171,12 +171,6 @@ output:
 	Danny was 20 years old when he wrote this book
 	Why is Danny playing with that python?
 ```
-eg2:
-	age = 20
-	name = 'Danny'
-
-	print('{} was {} years old when he wrote this book'.format(name, age))
-	print('Why is {} playing with that python?'.format(name))
 
 ## Escape Sequences
    * Suppose, you want to have a string which contains a single quote ('), how will you specify this string? For example, the string is "What's your name?". You cannot specify 'What's your name?' because Python will be confused as to where the string starts and ends. So, you will have to specify that this single quote does not indicate the end of the string. This can be done with the help of what is called an escape sequence.
