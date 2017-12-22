@@ -105,7 +105,7 @@ eg:
    * Whitespace is important in Python. Actually, whitespace at the beginning of the line is important. This is called indentation. 
    * Leading whitespace (spaces and tabs) at the beginning of the logical line is used to determine the indentation level of the logical line, which in turn is used to determine the grouping of statements.
    * This means that statements which go together must have the same indentation.Each such set of statements is called a block
-eg:
+
 ```
 		i = 5
 		# Error below! Notice a single space at the start of the line
