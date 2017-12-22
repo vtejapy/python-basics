@@ -15,6 +15,15 @@ JSONDecoder: A decoder class to convert JSON format file into Python obj.
 The conversions are based on this conversion table.
 
 
+json .load(f): Load json data from file 
+
+json.loads(f): Load Josn data form stroing
+
+json.dump(j,f) :write json object to file
+
+json.dumps(j) : Json Object to String
+
+
 import json
 
 The JSON module is mainly used to convert the python dictionary above into a JSON string that can be written into a file.
