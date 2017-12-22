@@ -91,7 +91,7 @@ eg:
 	# Note that print is a function
 	print('hello world')
 ```
-## Use as many useful comments as you can in your program to:
+### Use as many useful comments as you can in your program to:
    * explain assumptions
    * explain important decisions
    * explain important details
