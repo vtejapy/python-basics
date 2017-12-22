@@ -176,7 +176,7 @@ output:
    * Suppose, you want to have a string which contains a single quote ('), how will you specify this string? For example, the string is "What's your name?". You cannot specify 'What's your name?' because Python will be confused as to where the string starts and ends. So, you will have to specify that this single quote does not indicate the end of the string. This can be done with the help of what is called an escape sequence.
 	* you can specify the string as 'What\'s your name?' or "What's your name?"
         * the newline character - \n
-		eg:
+		
 ```
 			'This is the first line\nThis is the second line'
 ```
@@ -195,6 +195,22 @@ output:
 ```
 			"This is the first line      This is the second line"
 ```
+The lists of Escape Characters in Python are:
+
+*    \a: alert
+*    \b: backspace
+*    \cx: Control X
+*    \e: escape
+*    \f: Form feed
+*    \n: New line or next line
+*    \r: carriage return
+*    \s: space
+*    \t: tab
+*    \v: Vertical Tab
+
+
+
+
 ## Variable
    * Container of date , we need some way of storing any information and manipulate them as well.
 	* Naming
