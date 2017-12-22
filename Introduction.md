@@ -60,9 +60,26 @@ And, the convention is to use four spaces (and no hard tabs) for each level of i
 
    * Automatic garbage collection. (But, there is a gc module to allow explicit control of garbage collection.)
  ## Python interpreter
- ### There are two modes for using the Python interpreter:
+### There are two modes for using the Python interpreter:
      * Interactive Mode
      * Script Mode
+  
+### Interactive Mode
+
+Without passing python script file to the interpreter, directly execute code to Python prompt.
+Example:
+```
+>>>2+6
+```
+Output:
+```
+8
+```
+### Script Mode
+programmers can store Python script source code in a file with the .py extension, and use the interpreter to execute the contents of the file. To execute the script by the interpreter, you have to tell the interpreter the name of the file. For example, if you have a script name MyFile.py and you’re working on Unix, to run the script you have to type:
+```
+python MyFile.py
+```
 
 ## Comments
 Comments are any text to the right of the # symbol and is mainly useful as notes for the reader of the program.
