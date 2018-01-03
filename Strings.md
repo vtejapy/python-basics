@@ -5,16 +5,12 @@ A string is an ordered sequence of characters. Here are a few characteristics of
  * You can retrieve a slice (sub-string) of a string with a slice operation, for example mystring[5:8].
  * Create strings with single quotes or double quotes. 
  
- 3.4.3.2   Operators on strings
-
+## Operators on strings
 You can concatenate strings with the "+" operator.
-
 You can create multiple concatenated copies of a string with the "*" operator.
-
 And, augmented assignment (+= and *=) also work.
-
 Examples:
-
+```
 >>> 'cat' + ' and ' + 'dog'
 'cat and dog'
 >>> '#' * 40
@@ -24,7 +20,7 @@ Examples:
 >>> s1 += 's'
 >>> s1
 'flowers'
-
+```
 ## Repetition
 The next operator we can apply to a string is the repetition operator (*).
 
