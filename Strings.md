@@ -84,7 +84,7 @@ output:
 			"This is the first line      This is the second line"
 ```
 The lists of Escape Characters in Python are:
-
+```
 *    \a: alert
 *    \b: backspace
 *    \cx: Control X
@@ -95,7 +95,6 @@ The lists of Escape Characters in Python are:
 *    \s: space
 *    \t: tab
 *    \v: Vertical Tab
-
 ```
 ## Strings are immutable
 It is temp
