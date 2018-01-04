@@ -1,9 +1,4 @@
 # python-basics
-
-[1 Index](index.md)
-
-## python-basics
-
 * [Introductions](Introduction.md)
 * [Lexical matters](chap-2.md)
 * [Variables](Variables.md)
