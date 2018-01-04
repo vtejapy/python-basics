@@ -640,7 +640,7 @@ Sets may only contain immutable (hashable) values, and thus may not contain othe
 >>> a.add(b)
 >>> a.add(frozenset(b))
 ```
-## Using set as key in a dictionary¶
+## Using set as key in a dictionary
 If you want to use a set as a key dictionary, you will need frozenset:
 ```
 >>> fa = {frozenset([1,2]): 1}
