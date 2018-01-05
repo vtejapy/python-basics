@@ -279,31 +279,6 @@ y: 44
 args: ()
 kwargs: {'a': 55, 'b': 66}
 ```
-
-
-## DocStrings
-
-Python has a nifty feature called documentation strings, usually referred to by its shorter name docstrings. DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand. Amazingly, we can even get the docstring back from, say a function, when the program is actually running!
-
-```
-def print_max(x, y):
-    '''Prints the maximum of two numbers.
-
-    The two values must be integers.'''
-    # convert to integers, if possible
-    x = int(x)
-    y = int(y)
-
-    if x > y:
-        print(x, 'is maximum')
-    else:
-        print(y, 'is maximum')
-
-print_max(3, 5)
-print(print_max.__doc__)
-
-```
-
 ## lambda
   * is anonymous (does not need a name) and
   * contains only an expression and no statements.
