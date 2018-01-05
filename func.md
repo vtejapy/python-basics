@@ -6,7 +6,7 @@ It enables us to pass values into the the function when we call it.
 It can returns a value (even if None).
 When a function is called, it has its own namespace. Variables in the function are local to the function (and disappear when the function exits
 
-Defining a function
+## Defining a function
 
 We use def keyword to define a function. General syntax is like
 ```
@@ -18,8 +18,8 @@ Example-1
 
 ```
 def print_lyrics():
-	print("I'm a lumberjack, and I'm okay.")
-	print('I sleep all night and I work all day.')
+    print("I'm a lumberjack, and I'm okay.")
+    print('I sleep all night and I work all day.')
 ```
 
 ### How do you call functions in Python?
@@ -31,7 +31,7 @@ I sleep all night and I work all day.
 ```
 Let us write a function which will take two integers as input and then return the sum.
 
-Example-2
+### Example-2
 
 ```
 >>> def sum(a, b):
@@ -43,7 +43,7 @@ In the second line with the return keyword, we are sending back the value of a +
 >>> res
 8
 ```
-Example-3
+### Example-3
 
 ```
 def function_name(arg1, arg2):
@@ -56,7 +56,7 @@ here is an example of calling this function:
 result = function_name(1, 2)
 ```
 
-Default argument value
+## Default argument value
 
 In a function variables may have default argument values, that means if we don’t give any value for that particular variable it will be assigned automatically.
 ```
@@ -78,11 +78,9 @@ True
 
 Important
 
-Important
-
 Remember that you can not have an argument without default argument if you already have one argument with default values before it. Like f(a, b=90, c) is illegal as b is having a default value but after that c is not having any default value.
 
-Keyword arguments
+## Keyword arguments
 
 ```
 >>> def func(a, b=5, c=10):
@@ -96,7 +94,7 @@ a is 12 and b is 5 and c is 24
 a is -1 and b is 12 and c is 24
 
 ```
-Example-2
+### Example-2
 ```
 def sumsub(a, b, c=0, d=0):
     return a - b + c - d
@@ -132,12 +130,12 @@ def longest_side(a, b):
 
 (Passing functions as arguments
 
-Higher-order function
+## Higher-order function
 
 Higher-order function or a functor is a function which does at least one of the following step inside:
 
-        Takes one or more functions as argument.
-        Returns another function as output.
+* Takes one or more functions as argument.
+* Returns another function as output.
 
 In Python any function can act as higher order function.
 ```
@@ -314,11 +312,11 @@ generator
     A generator is a class or function that implements an iterator, i.e. that implements the iterator protocol.
 the iterator protocol
 
-    An object satisfies the iterator protocol if it does the following:
+* An object satisfies the iterator protocol if it does the following:
 
-        It implements a `__iter__` method, which returns an iterator object.
-        It implements a next function, which returns the next item from the collection, sequence, stream, etc of items to be iterated over
-        It raises the StopIteration exception when the items are exhausted and the `next()` method is called.
+* It implements a `__iter__` method, which returns an iterator object.
+* It implements a next function, which returns the next item from the collection, sequence, stream, etc of items to be iterated over
+* It raises the StopIteration exception when the items are exhausted and the `next()` method is called.
 
 The built-in function iter takes an iterable object and returns an iterator.
 ```
@@ -337,17 +335,17 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-yield
-    The yield statement enables us to write functions that are generators. Such functions may be similar to coroutines, since they may "yield" multiple times and are resumed. 
+## yield
+* The yield statement enables us to write functions that are generators. Such functions may be similar to coroutines, since they may "yield" multiple times and are resumed. 
 
 Generators simplifies creation of iterators. A generator is a function that produces a sequence of results instead of a single value.
-
+```
 def yrange(n):
     i = 0
     while i < n:
         yield i
         i += 1
-
+```
 Each time the yield statement is executed the function generates a new value.
 ```
 >>> y = yrange(3)
@@ -396,5 +394,6 @@ Traceback (most recent call last):
 StopIteration
 >>>
 ```
+
 
 
