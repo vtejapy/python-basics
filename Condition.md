@@ -66,12 +66,11 @@ if x > 0:
 The boolean expression after the if statement is called the condition . We end the if statement with a colon character (:) and the line(s) after the if statement are indented.
 
 ![If-condition](diagram-3.png)
-![Screenshot](diagram-2.png)
-
 
 ## Alternative execution(IF-ELSE)
 
 A second form of the if statement is alternative execution , in which there are two possibilities and the condition determines which one gets executed. 
+
 The syntax looks like this:
 ```
 if x% 2 ==0 :
@@ -80,8 +79,7 @@ else:
   print('x is odd')
 ```
 
-
-diagram-2
+![Screenshot](diagram-2.png)
 
 ## Chained Condition(IF-ELIF-ELSE)
 
@@ -95,7 +93,7 @@ elif x > y:
 else:
   print('x and y are equal')
 
-diagram-3
+![Screenshot](diagram-3.png)
 
 ## Nested conditionals
 
@@ -109,5 +107,5 @@ else:
   else:
     print('x is greater than y')
 ```
-diagram-4
+![Screenshot](diagram-4.png)
 
