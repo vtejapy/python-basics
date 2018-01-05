@@ -14,7 +14,6 @@
    * Naming Variables
    * Keywords
    * Assign Multiple Variables
-   *  Modulus opertions
    *  String operations
    * Type Conversions
 4. Operators and expressions
@@ -36,10 +35,7 @@
    * Formatting strings
    * Escape Characters
    * String Slicing
-   *  Parsing string
-   * Escape Characters
-   * Some useful built in Functions
-   
+     
 6. Conditional execution
    *  Boolean expres
    *  Logical operation
@@ -128,9 +124,6 @@
     *  Database concepts  
     *  Creating a database table
     *  closing database
-17. parsing data 
-    *   json
-    *   yaml
 
 
 
