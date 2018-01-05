@@ -67,7 +67,7 @@ def simplebar(num):
     :arg num: Length of the bar
     """
     print('-' * num)
-```
+
 
 
 >>> import bars
@@ -78,7 +78,7 @@ def simplebar(num):
 ----------
 >>> bars.starbar(10)
 **********
-
+```
 
 
 
