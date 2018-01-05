@@ -84,7 +84,7 @@ print sum
 ```
 
 
-##While loop
+## While loop
 
 The while statement allows you to repeatedly execute a block of statements as long as a condition is true. 
 
@@ -118,9 +118,9 @@ eg:
 ````
 
 
-Loop Control Statements
+## Loop Control Statements
 
-Break statement
+### Break statement
 
 It is used to exit a while loop or a for loop. It terminates the looping & transfers execution to the statement next to the loop.
 
@@ -141,7 +141,7 @@ output:
 2
 ```
 
-Continue statement  
+### Continue statement  
 It causes the looping to skip the rest part of its body & start re-testing its condition.
 
 ```
@@ -164,7 +164,7 @@ output:
 9
 ```
 
-Pass Statement
+### Pass Statement
 
 It is used in Python to when a statement is required syntactically and the programmer does not want to execute any code block or command.
 
