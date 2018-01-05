@@ -11,14 +11,18 @@ eg:
 	>>> 14 % 3(modulue operator)
 	2
 ```
+
+## Relational Operators
 ```
-=>Relational Operators
 < Is less than
 <= Is less than or equal to
 > Is greater than
 >= Is greater than or equal to
 == Is equal to
 != Is not equal to
+```
+eg
+```
 	>>> 1 < 2
 	True	
 	>>> 3 > 34	
