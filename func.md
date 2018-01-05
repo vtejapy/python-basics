@@ -21,13 +21,14 @@ def print_lyrics():
 	print("I'm a lumberjack, and I'm okay.")
 	print('I sleep all night and I work all day.')
 ```
-How do you call functions in Python?
-Simply write the function's name followed by (), The syntax for calling the new function
 
+### How do you call functions in Python?
+Simply write the function's name followed by (), The syntax for calling the new function
+```
 >>> print_lyrics()
 I'm a lumberjack, and I'm okay.
 I sleep all night and I work all day.
-
+```
 Let us write a function which will take two integers as input and then return the sum.
 
 Example-2
