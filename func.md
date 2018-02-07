@@ -130,23 +130,6 @@ def longest_side(a, b):
 
 (Passing functions as arguments
 
-## Higher-order function
-
-Higher-order function or a functor is a function which does at least one of the following step inside:
-
-* Takes one or more functions as argument.
-* Returns another function as output.
-
-In Python any function can act as higher order function.
-```
->>> def high(func, value):
-...     return func(value)
-...
->>> lst = high(dir, int)
->>> print(lst[-3:])
-['imag', 'numerator', 'real']
->>> print(lst)
-```
 ## Local Variables
 
    * When you declare variables inside a function definition, they are not related in any way to other variables with the same names used outside the function - i.e. variable names are local to the function. 
