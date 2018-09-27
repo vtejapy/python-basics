@@ -1,0 +1,66 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='Demo')
+parser.add_argument('--verbose',
+    action='store_true',
+    help='verbose flag' )
+
+args = parser.parse_args()
+
+if args.verbose:
+    print("~ Verbose!")
+else:
+    print("~ Not so verbose")
+
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--verbose', '-v',
+    action='store_true',
+    help='verbose flag' )
+
+args = parser.parse_args()
+
+if args.verbose:
+    print("~ Verbose!")
+else:
+    print("~ Not so verbose")
+
+
+#####positional
+parser = argparse.ArgumentParser()
+parser.add_argument('filename')
+args = parser.parse_args()
+
+print("~ Filename: {}".format(args.filename))
+
+
+
+
+#nargs
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('nums', nargs=2)
+args = parser.parse_args()
+
+print("~ Nums: {}".format(args.nums))
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument('nums', nargs='*')
+args = parser.parse_args()
+
+print("~ Nums: {}".format(args.nums))
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument('nums', nargs=2, type=int)
+args = parser.parse_args()
+
+print("~ Nums: {}".format(args.nums))
+
+
