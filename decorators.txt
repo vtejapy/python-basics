@@ -72,3 +72,54 @@ def calculate_squares(n):
     """Calculate the squares of the numbers 0 to n."""
     for i in range(n):
         i_squared = i**2
+
+
+
+#Function with arguments
+
+def add_decorator(original_fn):
+    def decorator_fn():
+        print("Hello from new")
+        original_fn()
+    return decorator_fn
+ 
+@add_decorator
+def add(x, y):
+    print(x + y)
+    
+    
+    
+    
+def add_decorator(n):
+    def decorator_fn(original_fn):
+        def wrapper_fn(*args, **kwargs):
+            result = original_fn(*args, **kwargs)
+            print(result+n)
+            return result + n
+        return wrapper_fn
+    return decorator_fn
+ 
+@add_decorator(2)
+def add(x, y):
+    return x + y
+    
+    
+    
+###uses execption handling
+
+
+def exception_handler(original_fn):
+    def decorator_fn(*args, **kwargs):
+        try:
+            return original_fn(*args, **kwargs)
+        except Exception as err:
+            print(err)
+    return decorator_fn
+ 
+@exception_handler
+def add(x, y):
+    sum = x + y
+    print(sum)
+    return sum
+    
+    
