@@ -1,3 +1,25 @@
+
+from time import sleep
+ 
+def delayed_func(func):
+    """Return `func`, delayed by 10 seconds."""
+    def wrapper():
+        print("Waiting for ten seconds...")
+        sleep(10)
+        # Call the function that was passed in
+        func()
+ 
+    return wrapper
+ 
+ 
+@delayed_func
+def print_phrase(): 
+    print("Fresh Hacks Every Day")
+    
+    
+    
+    
+
 import datetime
 import time
 from app_config import log
@@ -21,3 +43,32 @@ def calculate_squares(n):
     for i in range(n):
         i_squared = i**2
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ import datetime
+import time
+from app_config import log
+ 
+def log_performance(func):
+    def wrapper(*args, **kwargs):
+        datetime_now = datetime.datetime.now()
+        log.debug(f"Function {func.__name__} being called at {datetime_now}")
+        start_time = time.time()
+ 
+        result = func(*args, **kwargs)
+ 
+        log.debug(f"Took {time.time() - start_time} seconds")
+        return result
+    return wrapper
+ 
+ 
+@log_performance
+def calculate_squares(n):
+    """Calculate the squares of the numbers 0 to n."""
+    for i in range(n):
+        i_squared = i**2
