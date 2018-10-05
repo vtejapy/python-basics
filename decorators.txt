@@ -1,4 +1,16 @@
 
+def hello_decorator(original_fn)
+    def decorator_fn():
+        print("Hello from new")
+        original_fn()   # original function must be invoked
+    return decorator_fn
+
+@hello_decorator
+def hello():
+   print("Hello from original")
+
+
+
 from time import sleep
  
 def delayed_func(func):
@@ -122,4 +134,6 @@ def add(x, y):
     print(sum)
     return sum
     
+    
+  
     
