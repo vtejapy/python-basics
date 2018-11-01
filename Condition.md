@@ -85,14 +85,14 @@ else:
 
 Sometimes there are more than two possibilities and we need more than two branches. One way to express a computation like that is a
 chained conditional :
-
+```
 if x < y:
   print('x is less than y')
 elif x > y:
   print('x is greater than y')
 else:
   print('x and y are equal')
-
+```
 ![Screenshot](diagram-3.png)
 
 ## Nested conditionals
