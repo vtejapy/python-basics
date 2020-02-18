@@ -1,14 +1,11 @@
 # what is python ?
   * Python is a high-level general purpose programming language:
     * Because code is automatically compiled to byte code and executed, Python is suitable for use as a scripting language, Web application implementation language, etc.
-    * Because Python can be extended in C and C++, Python can provide the speed needed for even compute intensive tasks.
-    * Because of its strong structuring constructs (nested code blocks, functions, classes, modules, and packages) and its consistent use of objects and object-oriented programming, Python enables us to write clear, logical applications for small and large tasks.
+    * Because Python can be extended in C and C++
   * Important features of Python:
     * Built-in high level data types: strings, lists, dictionaries, etc.
     * The usual control structures: if, if-else, if-elif-else, while, plus a powerful collection iterator (for).
-    * Multiple levels of organizational structure: functions, classes, modules, and packages. These assist in organizing code. An excellent and large example is the Python standard library.
-    * Compile on the fly to byte code -- Source code is compiled to byte code without a separate compile step. Source code modules can also be "pre-compiled" to byte code files.
-    * Object-oriented -- Python provides a consistent way to use objects: everything is an object. And, in Python it is easy to implement new object types (called classes in object-oriented programming).
+    * Multiple levels of organizational structure: functions, classes, modules, and packages. These assist in organizing code. An excellent and large example is the Python standard library.   
   * Some things you will need to know:
 
     Python uses indentation to show block structure. Indent one level to show the beginning of a block. Out-dent one level to show the end of a block. As an example, the following C-style code:
